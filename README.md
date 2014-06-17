@@ -55,7 +55,7 @@
 
 编写测试python文件
     
-    rm /mnt/sdcard/com.test.python/main.pyo
+    adb shell rm /mnt/sdcard/com.test.python/main.pyo
     adb push main.py /mnt/sdcard/com.test.python/main.py
-    am start -n com.test.python/org.renpy.android.PythonActivity
+    adb shell am start -n com.test.python/org.renpy.android.PythonActivity
     
