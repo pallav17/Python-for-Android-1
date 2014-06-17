@@ -694,11 +694,12 @@ public class SDLSurfaceView extends SurfaceView implements SurfaceHolder.Callbac
             configFound = true;
             break;
         }
-
+        
+        /*
         if (!configFound) {
             System.exit(0);
             return;
-        }
+        }*/
 
         if (DEBUG) Log.d(TAG, "Done egl");
         waitForStart();
